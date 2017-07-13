@@ -1,8 +1,8 @@
-# _Roman Numerals Converter_
+# _Crypto Square_
 
-#### _{Convert numbers to roman numerals}, {July 13, 2017}_
+#### _{Convert a sentence to crypto square-form}, {July 13, 2017}_
 
-#### By _**{Maria Thomas & Bart Webber}**_
+#### By _**{Maria Thomas & Bart Webber & Kheifer Fuller}**_
 
 ## Description
 
@@ -12,15 +12,13 @@ _{Received a user input and convert it to roman numeral format}_
 
 | Behavior      | Input | Output |
 | ------------- | ------------- | ------------- |
-| The program will convert a single whole number into a Roman numeral equivalent.| 5  | V  |
-| Each of the nonzero digits will be treated separately. | 1903  | MCMIII |
-| The symbols “I”, “X”, “C”, and “M” can be only repeated three times in succession, but no more.  | 3,30,100,1000  | III,XXX,CCC,MMM  |         
-| “I” can be subtracted from “V” and “X” only. | 9  | IX  |
-| “X” can be subtracted from “L” and “C” only.  | 40, 90  | XL, XC  |
-| “C” can be subtracted from “D” and “M” only.  | 400, 900 | CD, CM |
-| Only one small-value symbol may be subtracted from any large-value symbol. | 9 | IX |
-| “D”, “L”, and “V” can never be repeated or subtracted.  | 400, 900 | CD, CM |
-| The program recognize zero as invalid input.  | 0 | Invalid Input |
+| The program will remove spaces, punctuations from the user input| example,%  | example  |
+| The program will lowercase the user input string | EXAMPLE  | example |
+| The program will separate each letter of the string into an array.   | example  | e,x,a,m,p,l,e  |         
+| The program will count the number of characters in the array. | e,x,a,m,p,l,e  | 7 characters  |
+| The program will create a grid of X columns and rows based on the nearest higher square root of the total number of characters   | 64 characters  | 8 col & 8 row  |
+
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | 400, 900 | CD, CM |
 
 
 ## Setup/Installation Requirements
@@ -34,7 +32,8 @@ git clone (URL.git)_
 
 _If you have any questions or suggestions. Please free to contact us._
 _Maria Thomas. Email: malethr@gmail.com_
-_Maria Thomas. Email: bartwebber@gmail.com_
+_Bart Webber. Email: bartwebber@gmail.com_
+_Kheifer Fuller. Email: kheifer@gmail.com_
 
 ## Technologies Used
 
@@ -48,4 +47,4 @@ _GitHub_
 
 This software is licensed under MIT license.
 
-Copyright (c) 2017 **_Maria Thomas & Bart Webber_**
+Copyright (c) 2017 **_Maria Thomas, Bart Webber & Kheifer Fuller_**
