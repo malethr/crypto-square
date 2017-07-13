@@ -8,20 +8,15 @@ var codeLength= lower.length;
 var sqr= Math.sqrt(codeLength);
 var column =Math.round(sqr);
 var row = "";
-
-
-
   if (column >= sqr) {
     row = column;
   } else {
     row= column + 1;
   };
-
   var colCut = [];
   for (var i = 0; i < row; i++) {
   colCut.push(lower.slice(column*i, column*(i+1)));
   }
-
     var holder = "";
     var answer = [];
      for ( var k = 0; k < column; k++) {
@@ -39,11 +34,6 @@ var row = "";
   answer.push(holder);
   alert(answer);
 };
-
-
-
-
-
 
 
 // UI Logic
